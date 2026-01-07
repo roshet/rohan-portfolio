@@ -1,16 +1,62 @@
-# React + Vite
+# Rohan Shetty – Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website showcasing my projects, skills, and contact information.
+It is built with modern frontend tools and deployed live for recruiters and collaborators to view.
 
-Currently, two official plugins are available:
+Live Site:
+https://rohan-portfolio-opal.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+- Vercel (deployment)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Featured Projects
+
+### Video Game Recommendation System
+Explainable content-based recommendation system that suggests similar video games using TF-IDF vectorization and cosine similarity, with human-readable explanations for each recommendation.
+
+Tech: Python, pandas, scikit-learn, Streamlit  
+GitHub: https://github.com/roshet/video-game-recommender
+
+---
+
+### Clutch Factor Analyzer
+Data analysis project that measures NFL quarterback performance in high-pressure situations by aggregating and analyzing historical game data.
+
+Tech: Python, pandas, NumPy  
+GitHub: https://github.com/roshet/clutch-factor-analyzer
+
+---
+
+### Arcade Shooter Game
+2D arcade-style shooter game where the player controls a ship to shoot falling obstacles. Features collision detection, sound effects, and restart mechanics.
+
+Tech: Python, Pygame  
+GitHub: https://github.com/roshet/arcade-shooter-game
+
+---
+
+## Contact
+
+Email: rohan.v.shetty@gmail.com  
+GitHub: https://github.com/roshet  
+Portfolio: https://rohan-portfolio-opal.vercel.app/
+
+---
+
+## Running Locally
+
+npm install  
+npm run dev
+
+---
+
+This portfolio was built to demonstrate practical software development skills, clean UI design, and deployment best practices.
