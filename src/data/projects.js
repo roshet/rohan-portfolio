@@ -20,4 +20,11 @@ export const projects = [
         tech: ["Python", "Pygame"],
         github:"https://github.com/roshet/python-jet-game",
     },
+    {
+        title: "AstroGuide",
+        description:
+            "AstroGuide is a full-stack mobile application that allows users to ask astronomy-related questions through a conversational interface. The backend is built with FastAPI and deployed on Railway, while the mobile frontend is built using React Native and Expo. The project emphasizes clean architecture, real deployment, and usability-focused design.",
+        tech: ["Python", "FastAPI", "React Native", "Expo", "OpenAI API", "Railway"],
+        github:"https://github.com/roshet/astroguide",
+    },
 ];

@@ -5,7 +5,7 @@ export const skills = [
     },
     {
         category: "Frontend",
-        items: ["React", "Tailwind CSS", "HTML", "CSS"]
+        items: ["React", "React Native", "Expo", "Tailwind CSS", "HTML", "CSS"]
     },
     {
         category: "Data & Analytics",
@@ -13,6 +13,6 @@ export const skills = [
     },
     {
         category: "Tools",
-        items: ["Git", "GitHub", "VS Code", "Excel"]
+        items: ["Git", "GitHub", "FastAPI", "Railway", "VS Code", "Excel"]
     },
 ];
