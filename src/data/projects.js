@@ -1,5 +1,12 @@
 export const projects = [
     {
+        title: "AstroGuide",
+        description:
+            "AstroGuide is a full-stack mobile application that allows users to ask astronomy-related questions through a conversational interface. The backend is built with FastAPI and deployed on Railway, while the mobile frontend is built using React Native and Expo. The project emphasizes clean architecture, real deployment, and usability-focused design.",
+        tech: ["Python", "FastAPI", "React Native", "Expo", "OpenAI API", "Railway"],
+        github:"https://github.com/roshet/astroguide",
+    },
+    {
         title: "Video Game Recommendation System",
         description:
             "Explainable content-based recommendation system that suggests similar video games using TF-IDF vertorization and cosine similarity, with human-readable explanations for each recommendation.",
@@ -19,12 +26,5 @@ export const projects = [
             "2D arcade-style shooter game where the player controls a ship to shoot falling obstacles, featuring collision detection and sound effects.",
         tech: ["Python", "Pygame"],
         github:"https://github.com/roshet/python-jet-game",
-    },
-    {
-        title: "AstroGuide",
-        description:
-            "AstroGuide is a full-stack mobile application that allows users to ask astronomy-related questions through a conversational interface. The backend is built with FastAPI and deployed on Railway, while the mobile frontend is built using React Native and Expo. The project emphasizes clean architecture, real deployment, and usability-focused design.",
-        tech: ["Python", "FastAPI", "React Native", "Expo", "OpenAI API", "Railway"],
-        github:"https://github.com/roshet/astroguide",
     },
 ];
