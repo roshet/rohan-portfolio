@@ -1,39 +1,69 @@
+import { motion } from "framer-motion";
+
 export default function Contact() {
   return (
-    <section className="py-20 px-6 bg-gray-950">
-      <h2 className="text-4xl font-bold text-center mb-8">
-        Contact
-      </h2>
+    <section id="contact" className="relative py-32 px-6 overflow-hidden">
+      {/* Background */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0d1117] to-[#1e1b4b]/40 pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-purple-600/10 rounded-full blur-[120px] pointer-events-none" />
 
-      <p className="text-center text-gray-400 mb-10">
-        Feel free to reach out — I'm always open to new opportunities and conversations.
-      </p>
-
-      <div className="flex justify-center gap-6">
-        <a
-          href="mailto:rohan.v.shetty@gmail.com"
-          className="bg-gray-800 px-6 py-3 rounded-lg hover:bg-gray-700 hover:scale-105 transition transform"
+      <div className="relative z-10 max-w-2xl mx-auto text-center">
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          className="text-blue-400 text-xs font-semibold tracking-[0.2em] uppercase mb-3"
         >
-          Email
-        </a>
-
-        <a
-          href="https://github.com/roshet"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-gray-800 px-6 py-3 rounded-lg hover:bg-gray-700 hover:scale-105 transition transform"
+          Contact
+        </motion.p>
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-4xl font-black text-white mb-4"
         >
-          GitHub
-        </a>
-
-        <a
-          href="https://linkedin.com/in/rohan-shetty-525a61248/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-gray-800 px-6 py-3 rounded-lg hover:bg-gray-700 hover:scale-105 transition transform"
+          Let's work together.
+        </motion.h2>
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2 }}
+          className="text-gray-400 mb-10"
         >
-          LinkedIn
-        </a>
+          Open to internships, co-ops, and interesting projects.
+        </motion.p>
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3 }}
+          className="flex justify-center gap-4 flex-wrap"
+        >
+          <a
+            href="mailto:shettyrv@mail.uc.edu"
+            className="px-6 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold hover:opacity-90 transition"
+          >
+            Send Email
+          </a>
+          <a
+            href="https://github.com/roshet"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 rounded-lg border border-white/20 text-white font-semibold hover:bg-white/5 transition"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://linkedin.com/in/rohan-shetty-525a61248/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 rounded-lg border border-white/20 text-white font-semibold hover:bg-white/5 transition"
+          >
+            LinkedIn
+          </a>
+        </motion.div>
       </div>
     </section>
   );
