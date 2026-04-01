@@ -33,7 +33,7 @@ export default function Navbar() {
       }`}
     >
       <span className="font-bold text-white tracking-tight">Rohan Shetty</span>
-      <div className="flex gap-6">
+      <div className="hidden md:flex gap-6">
         {links.map((link) => (
           <a
             key={link.href}
