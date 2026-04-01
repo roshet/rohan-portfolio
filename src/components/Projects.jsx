@@ -29,7 +29,7 @@ function ProjectCard({ project, index }) {
       transition={{ duration: 0.5, delay: index * 0.1 }}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      style={{ rotateX, rotateY, transformStyle: "preserve-3d" }}
+      style={{ rotateX, rotateY, transformStyle: "preserve-3d", perspective: 800 }}
       className="bg-[#0f172a] border border-[#1e293b] rounded-xl p-6 cursor-default hover:border-blue-500/30 transition-colors duration-300"
     >
       {project.featured && (
