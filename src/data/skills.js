@@ -1,18 +1,17 @@
 export const skills = [
-    {
-        category: "Languages",
-        items: ["Python, JavaScript, C++, SQL"]
-    },
-    {
-        category: "Frontend",
-        items: ["React", "React Native", "Expo", "Tailwind CSS", "HTML", "CSS"]
-    },
-    {
-        category: "Data & Analytics",
-        items: ["pandas", "NumPy", "scikit-learn"]
-    },
-    {
-        category: "Tools",
-        items: ["Git", "GitHub", "FastAPI", "Railway", "VS Code", "Excel"]
-    },
+  {
+    category: "Languages",
+    color: "blue",
+    items: ["Python", "C++", "SQL", "JavaScript", "HTML/CSS"],
+  },
+  {
+    category: "Frameworks",
+    color: "purple",
+    items: ["FastAPI", "React", "React Native", "Streamlit"],
+  },
+  {
+    category: "Tools",
+    color: "gray",
+    items: ["Git", "OpenAI API", "Railway", "PostgreSQL", "MySQL", "Power BI", "Jupyter Notebook", "Excel"],
+  },
 ];
