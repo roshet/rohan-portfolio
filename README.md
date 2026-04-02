@@ -1,62 +1,78 @@
 # Rohan Shetty – Personal Portfolio
 
-This is my personal portfolio website showcasing my projects, skills, and contact information.
-It is built with modern frontend tools and deployed live for recruiters and collaborators to view.
+My personal portfolio website showcasing my projects, skills, experience, and contact information.
+Built with modern frontend tools and deployed live for recruiters and collaborators to view.
 
-Live Site:
-https://rohan-portfolio-opal.vercel.app/
+Live Site: https://rohan-portfolio-opal.vercel.app/
 
 ---
 
 ## Tech Stack
 
-- React
-- Vite
-- Tailwind CSS
+- React + Vite
+- Tailwind CSS v4
+- Framer Motion (animations)
 - JavaScript (ES6+)
 - Vercel (deployment)
 
 ---
 
-## Featured Projects
+## Sections
 
-### Video Game Recommendation System
-Explainable content-based recommendation system that suggests similar video games using TF-IDF vectorization and cosine similarity, with human-readable explanations for each recommendation.
-
-Tech: Python, pandas, scikit-learn, Streamlit  
-GitHub: https://github.com/roshet/video-game-recommender
+- **Hero** – Typewriter role animation, resume download CTA
+- **About** – Bio, photo, social links
+- **Experience** – Internship/co-op timeline
+- **Projects** – 3D tilt cards with live/GitHub links
+- **Skills** – Categorized pill grid
+- **Contact** – Email, GitHub, LinkedIn
 
 ---
 
-### Clutch Factor Analyzer
-Data analysis project that measures NFL quarterback performance in high-pressure situations by aggregating and analyzing historical game data.
+## Featured Projects
+
+### AstroGuide
+AI-powered space exploration app providing real-time astronomy data including NASA APOD, ISS tracking, and personalized stargazing recommendations.
+
+Tech: React Native, FastAPI, NASA APIs, OpenWeatherMap API
+
+---
+
+### Crave
+Full-stack food discovery app with restaurant recommendations, user reviews, and location-based filtering.
+
+Tech: React Native, Node.js, PostgreSQL  
+GitHub: https://github.com/roshet/Crave
+
+---
+
+### NFL QB Clutch Factor Analyzer
+Data analysis project measuring NFL quarterback performance in high-pressure situations by aggregating and analyzing historical game data.
 
 Tech: Python, pandas, NumPy  
 GitHub: https://github.com/roshet/clutch-factor-analyzer
 
 ---
 
-### Arcade Shooter Game
-2D arcade-style shooter game where the player controls a ship to shoot falling obstacles. Features collision detection, sound effects, and restart mechanics.
+### Video Game Recommendation System
+Content-based recommendation system that suggests similar video games using TF-IDF vectorization and cosine similarity, with human-readable explanations.
 
-Tech: Python, Pygame  
-GitHub: https://github.com/roshet/arcade-shooter-game
+Tech: Python, pandas, scikit-learn, Streamlit  
+GitHub: https://github.com/roshet/video-game-recommender
 
 ---
 
 ## Contact
 
-Email: rohan.v.shetty@gmail.com  
+Email: shettyrv@mail.uc.edu  
 GitHub: https://github.com/roshet  
+LinkedIn: https://linkedin.com/in/rohan-shetty-525a61248/  
 Portfolio: https://rohan-portfolio-opal.vercel.app/
 
 ---
 
 ## Running Locally
 
-npm install  
+```bash
+npm install
 npm run dev
-
----
-
-This portfolio was built to demonstrate practical software development skills, clean UI design, and deployment best practices.
+```
