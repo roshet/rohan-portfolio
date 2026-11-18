@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Bearcat Hockey Analytics",
+    description:
+      "Opponent scouting, special-teams analysis and a rebuilt national ranking for UC club hockey, built from the ACHA's public league data and approved by the league. A penalty simulator derives power-play time the league never publishes, the rebuilt ranking matches the official one for 71 of 81 teams (all within 2 places), and the site updates and deploys itself every morning. Live site available on request.",
+    tech: ["Python", "PostgreSQL", "SQLAlchemy", "FastAPI", "React", "TypeScript", "Vercel"],
+    github: "https://github.com/roshet/bearcat-hockey-analytics",
+    featured: true,
+  },
+  {
     title: "AstroGuide",
     description:
       "AI-powered mobile astronomy assistant with a FastAPI backend and React Native (Expo) frontend. Deployed on Railway with OpenAI API integration for beginner and advanced explanation modes.",
